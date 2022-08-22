@@ -5,4 +5,4 @@ sys.path.append('..')
 import code
 
 def test_func():
-    assert myfunc(13) == 'gazonrnin'
+    assert code.myfunc(13) == 'gazonrnin'
