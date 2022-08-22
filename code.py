@@ -1,2 +1,2 @@
-def myfunc():
+def myfunc(x):
     return 'gazornin'

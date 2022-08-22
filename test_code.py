@@ -2,8 +2,7 @@ import sys
 sys.path.append('.')
 sys.path.append('..')
 
-import pytest
-from code import myfunc
+import code
 
 def test_func():
     assert myfunc(13) == 'gazonrnin'
