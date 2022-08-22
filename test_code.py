@@ -2,7 +2,7 @@ import sys
 sys.path.append('.')
 sys.path.append('..')
 
-import code
+from code import myfunc
 
 def test_func():
-    assert code.myfunc(13) == 'gazornin'
+    assert myfunc(13) == 'gazornin'
